@@ -8,6 +8,30 @@
         margin-top:5px;
         width: 300px;
     }
+    .transicao{
+        max-height: 400px;
+    }
+
+       
+    .filme-principal .container {
+        margin-top: 250px;
+        width: 90%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .descricao{
+        width: 100%;
+        
+    }
+    
+    #myVideo{
+        margin-bottom: 40%;
+        
+    }
+
+    .carousel-filmes{
+        margin-top: 120px;
+    }
 }
 
 @media screen and (min-width:1000px){
@@ -15,3 +39,23 @@
     width: 50%;
     }
 }
+
+/* teste de vídeo */
+#myVideo {
+    position: fixed;
+    left: 15%;
+    align-content: center;
+    
+    min-width: 20%;
+    max-width: 70%;
+    min-height: 10rem;
+    z-index: -1;
+    
+  }
+
+  .textos{
+      width: 90%;
+      border: 10%;
+  }
+
+/* teste de fade out*/

@@ -15,12 +15,16 @@ body {
     font-family: 'Arial', Times, serif;
     color: white;
 }
+header{
+    background: var(--preta);
+}
 
 header .container {
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 header .logo {
@@ -28,12 +32,14 @@ header .logo {
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
+    
 }
 
 header nav a {
     text-decoration: none;
     color: #AAAAAA;
     margin-right: 10px;
+    
 }
 
 header nav a:hover {
@@ -45,9 +51,8 @@ header nav a:hover {
 
 /*Filme principal*/
 .filme-principal{
-    font-size:16px;
-    background: linear-gradient(rgba(0,0,0,.30),rgba(0,0,0,.30)100%), url('/img/capa-house.jpg');
-
+ 
+    font-size: 16px;
     height: 400px;
     background-size: cover;
 
@@ -56,6 +61,25 @@ header nav a:hover {
     justify-content: center;
     align-items: flex-start;
 }
+
+#transicao{
+ 
+    font-size: 16px;
+    /*background: linear-gradient(rgba(0, 0, 0, .30), rgba(0, 0, 0, .30)100%), url('../img/capa-house.jpg');*/
+    height: 100%;
+    min-width: 100%;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+ 
+
+    
+}
+
+
 
 .filme-principal .descricao {
     margin-top: 10px;
@@ -92,27 +116,6 @@ header nav a:hover {
 
 /* Meu código */
 
-.modal-dialog {
-    max-width: 800px;
-    margin: 30px auto;
-}
-
-
-
-.modal-body {
-position:relative;
-padding:0px;
-}
-.close {
-position:absolute;
-right:-30px;
-top:0;
-z-index:999;
-font-size:2rem;
-font-weight: normal;
-color:#fff;
-opacity:1;
-}
 
 
 /* Meu código */
@@ -138,5 +141,7 @@ opacity:1;
 
 .carousel-filmes {
     margin-top: 5px;
+    background: var(--preta);
+    
 }
 
